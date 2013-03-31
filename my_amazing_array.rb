@@ -17,13 +17,13 @@ class Array
 		    i += 1    
 		  end
 	  end
-	  print self
+	  return self
 	end
 end
 
 #Array.new.bubble_sort([1,4,3])
 
-#[1,3,2,0].bubble_sort
+[5,4,7,2,10].bubble_sort
 
 #[1,3,2].bubble_sort
 
